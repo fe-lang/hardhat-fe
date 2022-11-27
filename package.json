@@ -1,12 +1,12 @@
 {
-  "name": "@developerdao/hardhat-fe",
+  "name": "@fe-lang/hardhat-fe",
   "version": "0.5.0",
   "description": "Hardhat plugin to develop smart contracts with fe",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Developer-DAO/hardhat-fe.git"
+    "url": "git+https://github.com/fe-lang/hardhat-fe.git"
   },
-  "author": "Developer DAO",
+  "author": "FeLang Developers",
   "license": "MIT",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
@@ -57,9 +57,9 @@
     "semver": "^7.3.7"
   },
   "bugs": {
-    "url": "https://github.com/Developer-DAO/hardhat-fe/issues"
+    "url": "https://github.com/fe-lang/hardhat-fe/issues"
   },
-  "homepage": "https://github.com/Developer-DAO/hardhat-fe#readme",
+  "homepage": "https://github.com/fe-lang/hardhat-fe#readme",
   "directories": {
     "test": "test"
   }

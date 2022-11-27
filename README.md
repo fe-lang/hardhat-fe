@@ -5,10 +5,8 @@
     </p>
 </p>
 
-[![npm version](https://badge.fury.io/js/@developerdao%2Fhardhat-fe.svg)](https://badge.fury.io/js/@developerdao%2Fhardhat-fe)
+[![npm version](https://badge.fury.io/js/@fe-lang%2Fhardhat-fe.svg)](https://badge.fury.io/js/@fe-lang%2Fhardhat-fe)
 [![hardhat](https://hardhat.org/buidler-plugin-badge.svg?1)](https://hardhat.org)
-
-Related [DevDAO RFC](https://forum.developerdao.com/t/rfc-hardhat-fe-hardhat-plugin-to-develop-smart-contracts-with-fe/2000)
 
 ## What
 
@@ -23,19 +21,19 @@ The Fe compiler is run using the [official binary releases](https://github.com/e
 First, you need to install the plugin by running
 
 ```bash
-npm install --save-dev @developerdao/hardhat-fe
+npm install --save-dev @fe-lang/hardhat-fe
 ```
 
 And add the following statement to your `hardhat.config.js`:
 
 ```js
-require("@developerdao/hardhat-fe");
+require("@fe-lang/hardhat-fe");
 ```
 
 Or, if you are using TypeScript, add this to your `hardhat.config.ts`:
 
 ```js
-import "@developerdao/hardhat-fe";
+import "@fe-lang/hardhat-fe";
 ```
 
 ## Required plugins
